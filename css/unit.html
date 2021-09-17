@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <style>
+        :root{
+            font-size: 20px
+        }
+
+        .parent{
+            font-size: 30px
+        }
+
+        .px-child{
+            font-size: 20px
+        }
+
+        .em-child{
+            font-size: 1.0em
+        }
+
+        .rem-child{
+            font-size: 1.0rem
+        }
+    </style>
+    </head>
+
+    <body>
+        <p>이것은 루트 글꼴입니다. (20px)</p>
+        <div class="parent">
+            <p>여기서부터 자손입니다. (30px)</p>
+            <p class="px-child">CSS 단위를 확인합니다. (20px)</p>
+            <p class="em-child">CSS 단위를 확인합니다. (1.0em)</p>
+            <p class="rem-child">CSS 단위를 확인합니다. (1.0rem)</p>
+        </div>
+
+    </body>
+</html>
